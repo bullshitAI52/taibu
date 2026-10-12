@@ -1,4 +1,4 @@
-FROM node:20-alpine
+FROM node:24.21.0-alpine3.23
 
 # 安装 pnpm
 RUN npm install -g pnpm
